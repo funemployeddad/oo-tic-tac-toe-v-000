@@ -72,7 +72,7 @@ end
 end
 
 def current_player(board)
-  @board.turn_count.even? ? "X":"O"
+  @board.turn_count % 2 == 0 ? "X":"O"
 end
 
 
