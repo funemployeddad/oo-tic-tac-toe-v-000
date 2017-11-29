@@ -35,7 +35,7 @@ class TicTacToe
 end
 
 
-def move(position, token)
+def move(position, token = "X")
   @board[position] = token
 end
 
