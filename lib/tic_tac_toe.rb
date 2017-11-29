@@ -65,8 +65,8 @@ def turn(board)
 end
 
 
-def turn_count(board)
-board.count do |cell|
+def turn_count
+@board.count do |cell|
   cell == "X" || cell == "O"
 end
 end
